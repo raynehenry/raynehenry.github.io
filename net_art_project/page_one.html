@@ -3,13 +3,13 @@
     <head>
         <title>Net Art Start Page</title>
         <style>
+
             #container{
                 position: relative;
                 height: 800px;
                 width: 1200px;
                 margin-left: auto;
                 margin-right: auto;
-                background-color: aqua;
             }
 
             #strawberrybase{
@@ -19,6 +19,7 @@
                 z-index: 10;
                 top:0;
                 left:0;
+                opacity: 100%;
             }
             
             #seedone{
@@ -26,8 +27,17 @@
                 height: 800px;
                 width: 1200px;
                 z-index: 20;
-                top:0;
+                top:50px;
                 left:0;
+            }
+
+            #seedtwo{
+                position: absolute;
+                height: 800px;
+                width: 1200px;
+                z-index: 30;
+                top:80px;
+                left:110px;
             }
 
 
@@ -40,8 +50,17 @@
             </div>
 
             <div id="seedone">
-                <img src="netartimages/seedone.png">
+                <a href="page_two.html">
+                    <img src="netartimages/seedone.png">
+                </a>
             </div>
+
+            <div id="seedtwo">
+                <a href="page_two.html">
+                    <img src="netartimages/seedtwo.png">
+                </a>
+            </div>
+
         </div>
     </body>
     </html>
